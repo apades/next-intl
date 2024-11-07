@@ -1,6 +1,6 @@
 {
-  "name": "use-intl",
-  "version": "3.21.1",
+  "name": "@apad/use-intl",
+  "version": "3.21.1--fix",
   "sideEffects": false,
   "author": "Jan Amann <jan@amann.work>",
   "description": "Internationalization (i18n) for React",
@@ -16,7 +16,6 @@
     "lint": "pnpm run lint:source && pnpm run lint:package",
     "lint:source": "eslint src test && tsc --noEmit",
     "lint:package": "publint && attw --pack",
-    "prepublishOnly": "turbo build",
     "size": "size-limit"
   },
   "main": "./dist/index.js",
